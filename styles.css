@@ -1,0 +1,95 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Main Styling */
+html,body, main{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.7em;
+
+}
+/* Header */
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.aside {
+  float: right;
+  display: block;
+  margin: 0%;
+  margin-right: 20px;
+  align-items: flex-start;
+  padding-bottom: 120px;
+}
+
+/* .aside {
+  min-height: 100%;
+  padding-top: 90px;
+} */
+.aside {
+  float: left;
+  display: block;
+  margin: 0%;
+  margin-right: 20px;
+  align-items: flex-start;
+  padding-bottom: 120px;
+}
+.aside img {
+  display: block;
+  margin: 0%;
+  width: 500px;
+  height: 400px;
+  margin-right: 20px;
+  padding-top: 40px;
+
+}
+
+.left{
+  float: left;
+  width: 50px;
+  min-height: 100%;
+}
+
+
+.left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding-top: 90px;
+}
+
+
+/* Button */
+.btn {
+  display: inline-block;
+  font-size: 18px0;
+  color: #fff;
+  background: green;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+
+}
+/* Footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
